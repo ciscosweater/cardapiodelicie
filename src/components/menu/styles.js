@@ -5,7 +5,7 @@ export const MenuDiv = styled.div`
     max-width: 450px;
     min-height: 100px;
     background-color: #f8edf4;
-    margin: 10px 0px;
+    margin: 10px 0px 50px 0px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -34,6 +34,6 @@ export const CartButton = styled.button`
     }
 
     :hover {
-        background-color: #d392bf;
+        background-color: #5b244a;
     }
 `;

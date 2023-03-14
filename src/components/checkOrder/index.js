@@ -34,9 +34,8 @@ function CheckOrder() {
     Bom dia!
 
 Escolhi meu pedido pelo cardápio online, ele foi o seguinte:
-
 ${itemsArray.map((item) => (
-        `${item.count}x unidades do ${item.title}\n`
+        `\n${item.count}x unidades do ${item.title}`
     ))}
 
 O total do pedido foi de R$${totalSum.toFixed(2)}
