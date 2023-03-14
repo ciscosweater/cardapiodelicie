@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/cardapiodelicie/static/css/main.77649b4c.css",
-    "main.js": "/cardapiodelicie/static/js/main.a3999e8e.js",
+    "main.js": "/cardapiodelicie/static/js/main.e875c181.js",
     "static/media/logo.png": "/cardapiodelicie/static/media/logo.da3e807269784b58c890.png",
     "static/media/whatsapp.png": "/cardapiodelicie/static/media/whatsapp.b41115747efa92c3b969.png",
     "static/media/bag.png": "/cardapiodelicie/static/media/bag.aba1d7c528a30414c9fa.png",
     "index.html": "/cardapiodelicie/index.html",
     "main.77649b4c.css.map": "/cardapiodelicie/static/css/main.77649b4c.css.map",
-    "main.a3999e8e.js.map": "/cardapiodelicie/static/js/main.a3999e8e.js.map"
+    "main.e875c181.js.map": "/cardapiodelicie/static/js/main.e875c181.js.map"
   },
   "entrypoints": [
     "static/css/main.77649b4c.css",
-    "static/js/main.a3999e8e.js"
+    "static/js/main.e875c181.js"
   ]
 }
