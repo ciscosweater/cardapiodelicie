@@ -89,7 +89,8 @@ O valor a ser pago pelo pedido é de R$${totalSum.toFixed(2)}${checked ? '' : ',
                             key={item.key}
                             title={item.title}
                             description={item.description}
-                            price={item.price}
+                            image={item.image}
+                            price={item.price * item.count}
                             count={item.count}
                         />
                     ))}

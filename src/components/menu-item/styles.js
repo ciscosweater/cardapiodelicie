@@ -13,9 +13,9 @@ export const ItemContainer = styled.div`
 export const ItemPicture = styled.img`
     width: 30%;
     aspect-ratio: 1/1;
-    background-color: black;
     border-radius: 20px;
     align-self: flex-start;
+    object-fit: cover;
 `;
 
 export const ItemDetails = styled.div`
