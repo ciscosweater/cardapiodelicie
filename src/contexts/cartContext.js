@@ -11,7 +11,7 @@ function CartStore({ children }) {
     };
 
     function removeFromCart(item) {
-        const newCartItems = cartItems.filter((cartItem) => cartItem.id !== item.id);
+        const newCartItems = cartItems.filter((cartItem) => cartItem.key !== item.key);
         setCartItems(newCartItems);
     };
 
