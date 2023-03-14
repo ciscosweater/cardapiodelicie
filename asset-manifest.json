@@ -1,16 +1,19 @@
 {
   "files": {
     "main.css": "/cardapiodelicie/static/css/main.b10cdea0.css",
-    "main.js": "/cardapiodelicie/static/js/main.801c14ba.js",
+    "main.js": "/cardapiodelicie/static/js/main.0b948d28.js",
+    "static/media/oreo-com-nutella.png": "/cardapiodelicie/static/media/oreo-com-nutella.1cbd2bbba23ed3bc656d.png",
+    "static/media/ninho-com-nutella.png": "/cardapiodelicie/static/media/ninho-com-nutella.953f88a4b1e5af83634c.png",
+    "static/media/chocolate-com-morango.png": "/cardapiodelicie/static/media/chocolate-com-morango.8843a0c6eb6255158d24.png",
     "static/media/logo.png": "/cardapiodelicie/static/media/logo.da3e807269784b58c890.png",
     "static/media/whatsapp.png": "/cardapiodelicie/static/media/whatsapp.b41115747efa92c3b969.png",
     "static/media/bag.png": "/cardapiodelicie/static/media/bag.aba1d7c528a30414c9fa.png",
     "index.html": "/cardapiodelicie/index.html",
     "main.b10cdea0.css.map": "/cardapiodelicie/static/css/main.b10cdea0.css.map",
-    "main.801c14ba.js.map": "/cardapiodelicie/static/js/main.801c14ba.js.map"
+    "main.0b948d28.js.map": "/cardapiodelicie/static/js/main.0b948d28.js.map"
   },
   "entrypoints": [
     "static/css/main.b10cdea0.css",
-    "static/js/main.801c14ba.js"
+    "static/js/main.0b948d28.js"
   ]
 }
