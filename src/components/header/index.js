@@ -1,24 +1,12 @@
-import { useNavigate } from "react-router-dom";
 import { CartDiv, CartIcon, HeaderDiv, LogoImg } from "./styles";
 import LogoPic from "../../assets/logo.png"
-import BagPic from "../../assets/bag.png"
-import { useContext } from "react";
-import { CartContext } from "../../contexts/cartContext";
 
-function Header() {
-    const { wipeCart } = useContext(CartContext);
-    const navigate = useNavigate();
-
-    const handleQuit = () => {
-        navigate('/')
-        wipeCart()
-    };
-
+function Header(props) {
     return (
         <HeaderDiv>
-            <LogoImg src={LogoPic} onClick={handleQuit} />
-            <CartDiv onClick={() => navigate('/cart')}>
-                <CartIcon src={BagPic} />
+            <LogoImg src={LogoPic} onClick={props.onclick} />
+            <CartDiv onClick={props.onclick}>
+                <CartIcon src={props.icon} />
             </CartDiv>
         </HeaderDiv>
     );

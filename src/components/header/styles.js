@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const HeaderDiv = styled.div`
     width: 100%;
     position: sticky;
+    top: 0px;
     height: 70px;
     background-color: #4b1e3d;
     display: flex;

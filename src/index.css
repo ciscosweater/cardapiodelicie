@@ -16,5 +16,20 @@ code {
 }
 
 a {
+  color: inherit;
   text-decoration: none;
+}
+
+* {
+  scrollbar-width: 10px;
+  scrollbar-color: #37162c;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #37162c;
+  border-radius: 20px;
 }

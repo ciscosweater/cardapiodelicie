@@ -94,3 +94,116 @@ export const WhatsAppText = styled.span`
     font-size: 20px;
     color: #fff;
 `;
+
+export const DetailsTitle = styled.span`
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #6e2b55;
+    text-align: center;
+`;
+
+export const PaymentSelect = styled.select`
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #6e2b55;
+    background-color: #f8edf4;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #37152b;
+
+    option {
+        font-family: 'Raleway', sans-serif;
+        color: #37152b;
+    }
+`;
+
+export const StreetInput = styled.input`
+    width: 245px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #6e2b55;
+    background-color: #f8edf4;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #37152b;
+    display: ${props => props.disabled ? 'none' : ''};
+`;
+
+export const NeighbourhoodInput = styled.input`
+    width: 245px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #6e2b55;
+    background-color: #f8edf4;
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #37152b;
+    display: ${props => props.disabled ? 'none' : ''};
+`;
+
+export const ReferenceInput = styled.input`
+    width: 245px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #6e2b55;
+    background-color: #f8edf4;
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #37152b;
+    display: ${props => props.disabled ? 'none' : ''};
+`;
+
+export const CheckboxContainer = styled.div`
+    width: 200px;
+    height: 40px;
+    padding-left: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: ${props => props.checked ? '#dba3c7' : '#f1dae8'};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    margin: 5px 0px 10px 0px;
+`;
+
+export const HiddenCheckbox = styled.input.attrs({ type: 'checkbox' })`
+    overflow: hidden;
+    white-space: nowrap;width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    cursor: pointer;
+`;
+
+export const CheckboxText = styled.label`
+    color: ${props => props.checked ? '#5c2447' : '#491d39'};
+    font-family: 'Raleway', sans-serif;
+    transition: 0.5s;
+    cursor: pointer;
+`;
+
+export const StyledCheckbox = styled.label`
+    width: 23px;
+    height: 23px;
+    margin-right: 6px;
+    border-radius: 50%;
+    background: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    img {
+        display: ${props => props.checked ? 'flex' : 'none'};
+    }
+`;
