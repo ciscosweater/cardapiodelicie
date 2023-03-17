@@ -120,7 +120,7 @@ function Menu() {
         {
             key: 0,
             title: "M&M (320g)",
-            description: "Ovo de Colher para crianças, recheado com brigadeiros de chocolate e morango, casca de chocolate ao leite.",
+            description: "Ovo de Colher para crianças, recheado com brigadeiro de chocolate e M&Ms, casca de chocolate ao leite.",
             image: MM,
             price: 40.00,
             count: 1
@@ -128,7 +128,7 @@ function Menu() {
         {
             key: 1,
             title: "Guloseimas (320g)",
-            description: "Ovo de Colher para crianças, recheado com brigadeiros de ninho e muita Nutella, casca de chocolate ao leite.",
+            description: "Ovo de Colher para crianças, recheado com brigadeiro e diversas guloseimas! Casca de chocolate ao leite.",
             image: Guloseimas,
             price: 40.00,
             count: 1
