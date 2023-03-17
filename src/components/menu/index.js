@@ -119,7 +119,7 @@ function Menu() {
     const ColherKids = [
         {
             key: 0,
-            title: "M&M (320g)",
+            title: "MM (320g)",
             description: "Ovo de Colher para crianças, recheado com brigadeiro de chocolate e M&Ms, casca de chocolate ao leite.",
             image: MM,
             price: 40.00,
