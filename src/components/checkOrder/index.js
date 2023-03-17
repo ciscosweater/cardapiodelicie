@@ -4,7 +4,7 @@ import { CartContext } from "../../contexts/cartContext";
 import CartItem from "../cartItem";
 import WhatsApp from "../../assets/whatsapp.png";
 import CheckIcon from "../../assets/check.png";
-import { CartButton, CheckboxContainer, CheckboxText, HiddenCheckbox, ItemsMessage, MenuDiv, NeighbourhoodInput, PaymentSelect, ReferenceInput, StreetInput, StyledCheckbox, SumDiv, TotalSum, TotalTitle, WhatsAppButton, WhatsAppIcon, WhatsAppText } from "./styles";
+import { CartButton, CartTitle, CheckboxContainer, CheckboxText, HiddenCheckbox, ItemsMessage, MenuDiv, NeighbourhoodInput, PaymentSelect, ReferenceInput, StreetInput, StyledCheckbox, SumDiv, TotalSum, TotalTitle, WhatsAppButton, WhatsAppIcon, WhatsAppText } from "./styles";
 
 function CheckOrder() {
     const [checked, setChecked] = useState(false);
@@ -67,7 +67,7 @@ ${itemsArray.map((item) => (
 A forma de pagamento escolhida foi: ${payment}.
 
 ${checked ?
-            `O pedido deverá ser retirado no endereço: Rua Vinte e Três, 835, Bairro Vila Nova.`
+            `O pedido deverá ser retirado no endereço: Rua Uirapuru, 128, Bairro Recanto dos Pássaros - Próximo a COOPEB.`
             :
             `O endereço para entrega é: ${field1}, ${field2}.\nO ponto de referência é: ${field3}.`
         }
@@ -80,6 +80,7 @@ O valor a ser pago pelo pedido é de R$${totalSum.toFixed(2)}${checked ? '' : ',
 
     return (
         <MenuDiv>
+            <CartTitle>Carrinho</CartTitle>
             {itemsArray.length === 0 ?
                 <ItemsMessage>Não há itens em seu carrinho.</ItemsMessage>
                 :
@@ -140,7 +141,7 @@ O valor a ser pago pelo pedido é de R$${totalSum.toFixed(2)}${checked ? '' : ',
                         value={field3}
                         disabled={checked ? 'disabled' : ''}
                     />
-                    <a href={`https://wa.me/5577999676988?text=${encodedMessage}`} target="blank">
+                    <a href={`https://wa.me/5577999009083?text=${encodedMessage}`} target="blank">
                         <WhatsAppButton>
                             <WhatsAppIcon src={WhatsApp} />
                             <WhatsAppText>Enviar o pedido</WhatsAppText>

@@ -37,3 +37,12 @@ export const CartButton = styled.button`
         background-color: #5b244a;
     }
 `;
+
+export const SectionTitle = styled.span`
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #4b1e3d;
+    margin-bottom: 20px;
+`;

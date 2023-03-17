@@ -207,3 +207,13 @@ export const StyledCheckbox = styled.label`
         display: ${props => props.checked ? 'flex' : 'none'};
     }
 `;
+
+export const CartTitle = styled.span`
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #4b1e3d;
+    margin-bottom: 20px;
+    margin-top: -10px;
+`;
