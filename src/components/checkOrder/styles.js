@@ -20,6 +20,7 @@ export const ItemsMessage = styled.span`
     color:  #491d3b;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
+    margin-bottom: 15px;
 `;
 
 export const CartButton = styled.button`

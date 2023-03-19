@@ -1,12 +1,12 @@
 import { useNavigate } from "react-router-dom";
 import MenuItem from "../menu-item";
-import { CartButton, MenuDiv, SectionTitle } from "./styles";
+import { CartButton, FirstMessage, MenuDiv, SectionTitle } from "./styles";
 import ChocolateComMorango from "../../assets/fotos-ovos/chocolate-com-morango.png"
 import NinhoComNutella from "../../assets/fotos-ovos/ninho-com-nutella.png"
 import OreoComNutella from "../../assets/fotos-ovos/oreo-com-nutella.png"
 import Churros from "../../assets/fotos-ovos/churros.png"
 import Brigadeiro from "../../assets/fotos-ovos/brigadeiro.png"
-import FerreroRocher from "../../assets/fotos-ovos/ferrerorocher.png"
+import FerreroRocher from "../../assets/fotos-ovos/ferrerorocher.jpg"
 import Tradicional from "../../assets/fotos-ovos/tradicional.png"
 import Guloseimas from "../../assets/fotos-ovos/guloseimas.png"
 import MM from "../../assets/fotos-ovos/mm.png"
@@ -164,6 +164,12 @@ function Menu() {
 
     return (
         <MenuDiv>
+            <FirstMessage>
+                Aviso! Os pedidos feitos aqui no cardápio
+                durante esse período de Páscoa são todos para encomenda,
+                a data para a entrega ou retirada será decidida e informada
+                após a finalização do pedido.
+            </FirstMessage>
             <SectionTitle>Ovos Gourmet - 350g</SectionTitle>
             {Colher350G.map((item) => (
                 <MenuItem

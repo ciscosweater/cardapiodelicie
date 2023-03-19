@@ -46,3 +46,13 @@ export const SectionTitle = styled.span`
     color: #4b1e3d;
     margin-bottom: 20px;
 `;
+
+export const FirstMessage = styled.span`
+    width: 70%;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #b64994;
+`;
