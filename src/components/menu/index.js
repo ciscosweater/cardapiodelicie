@@ -21,7 +21,8 @@ function Menu() {
             description: "Ovo de Colher Gourmet, recheado com brigadeiros de chocolate e morango, casca de chocolate ao leite.",
             image: ChocolateComMorango,
             price: 60.00,
-            count: 1
+            count: 1,
+            prefix: "Gourmet"
         },
         {
             key: 1,
@@ -29,7 +30,8 @@ function Menu() {
             description: "Ovo de Colher Gourmet, recheado com brigadeiros de ninho e muita Nutella, casca de chocolate ao leite.",
             image: NinhoComNutella,
             price: 60.00,
-            count: 1
+            count: 1,
+            prefix: "Gourmet"
         },
         {
             key: 2,
@@ -37,7 +39,8 @@ function Menu() {
             description: "Ovo de Colher Gourmet, recheado com brigadeiros de Oreo e muita Nutella, casca de chocolate branco.",
             image: OreoComNutella,
             price: 60.00,
-            count: 1
+            count: 1,
+            prefix: "Gourmet"
         },
         {
             key: 3,
@@ -45,7 +48,8 @@ function Menu() {
             description: "Ovo de Colher Gourmet, recheado com brigadeiros de churros e muito doce de leite, casca de chocolate ao leite.",
             image: Churros,
             price: 60.00,
-            count: 1
+            count: 1,
+            prefix: "Gourmet"
         },
         {
             key: 4,
@@ -53,7 +57,8 @@ function Menu() {
             description: "Ovo de Colher Gourmet, recheado com brigadeiros de chocolate, casca de chocolate ao leite.",
             image: Brigadeiro,
             price: 60.00,
-            count: 1
+            count: 1,
+            prefix: "Gourmet"
         },
         {
             key: 5,
@@ -61,7 +66,8 @@ function Menu() {
             description: "Ovo de Colher Gourmet, recheado com brigadeiros de Ferrero Rocher e muita Nutella, casca de chocolate ao leite.",
             image: FerreroRocher,
             price: 60.00,
-            count: 1
+            count: 1,
+            prefix: "Gourmet"
         }
     ];
 
@@ -72,7 +78,8 @@ function Menu() {
             description: "Ovo de Colher Gourmet, recheado com brigadeiros de chocolate e morango, casca de chocolate ao leite.",
             image: ChocolateComMorango,
             price: 75.00,
-            count: 1
+            count: 1,
+            prefix: "Gourmet"
         },
         {
             key: 1,
@@ -80,7 +87,8 @@ function Menu() {
             description: "Ovo de Colher Gourmet, recheado com brigadeiros de ninho e muita Nutella, casca de chocolate ao leite.",
             image: NinhoComNutella,
             price: 75.00,
-            count: 1
+            count: 1,
+            prefix: "Gourmet"
         },
         {
             key: 2,
@@ -88,7 +96,8 @@ function Menu() {
             description: "Ovo de Colher Gourmet, recheado com brigadeiros de Oreo e muita Nutella, casca de chocolate branco.",
             image: OreoComNutella,
             price: 75.00,
-            count: 1
+            count: 1,
+            prefix: "Gourmet"
         },
         {
             key: 3,
@@ -96,7 +105,8 @@ function Menu() {
             description: "Ovo de Colher Gourmet, recheado com brigadeiros de churros e muito doce de leite, casca de chocolate ao leite.",
             image: Churros,
             price: 75.00,
-            count: 1
+            count: 1,
+            prefix: "Gourmet"
         },
         {
             key: 4,
@@ -104,7 +114,8 @@ function Menu() {
             description: "Ovo de Colher Gourmet, recheado com brigadeiros de chocolate, casca de chocolate ao leite.",
             image: Brigadeiro,
             price: 75.00,
-            count: 1
+            count: 1,
+            prefix: "Gourmet"
         },
         {
             key: 5,
@@ -112,7 +123,8 @@ function Menu() {
             description: "Ovo de Colher Gourmet, recheado com brigadeiros de Ferrero Rocher e muita Nutella, casca de chocolate ao leite.",
             image: FerreroRocher,
             price: 75.00,
-            count: 1
+            count: 1,
+            prefix: "Gourmet"
         }
     ];
 
@@ -123,7 +135,8 @@ function Menu() {
             description: "Ovo de Colher para crianças, recheado com brigadeiro de chocolate e M&Ms, casca de chocolate ao leite.",
             image: MM,
             price: 40.00,
-            count: 1
+            count: 1,
+            prefix: "Kids"
         },
         {
             key: 1,
@@ -131,7 +144,8 @@ function Menu() {
             description: "Ovo de Colher para crianças, recheado com brigadeiro e diversas guloseimas! Casca de chocolate ao leite.",
             image: Guloseimas,
             price: 40.00,
-            count: 1
+            count: 1,
+            prefix: "Kids"
         }
     ];
 
@@ -142,7 +156,8 @@ function Menu() {
             description: "Ovo de Páscoa ao leite recheados com Bombons de Chocolate.",
             image: Tradicional,
             price: 10.00,
-            count: 1
+            count: 1,
+            prefix: "Tradicional"
         },
         {
             key: 1,
@@ -150,7 +165,8 @@ function Menu() {
             description: "Ovo de Páscoa ao leite recheados com Bombons de Chocolate.",
             image: Tradicional,
             price: 25.00,
-            count: 1
+            count: 1,
+            prefix: "Tradicional"
         },
         {
             key: 2,
@@ -158,7 +174,8 @@ function Menu() {
             description: "Ovo de Páscoa ao leite recheados com Bombons de Chocolate.",
             image: Tradicional,
             price: 40.00,
-            count: 1
+            count: 1,
+            prefix: "Tradicional"
         }
     ];
 
@@ -178,6 +195,7 @@ function Menu() {
                     description={item.description}
                     image={item.image}
                     price={item.price}
+                    prefix={item.prefix}
                 />
             ))}
             <SectionTitle>Ovos Gourmet - 550g</SectionTitle>
@@ -188,6 +206,7 @@ function Menu() {
                     description={item.description}
                     image={item.image}
                     price={item.price}
+                    prefix={item.prefix}
                 />
             ))}
             <SectionTitle>Ovos Kids</SectionTitle>
@@ -198,6 +217,7 @@ function Menu() {
                     description={item.description}
                     image={item.image}
                     price={item.price}
+                    prefix={item.prefix}
                 />
             ))}
             <SectionTitle>Ovos Tradicionais</SectionTitle>
@@ -208,6 +228,7 @@ function Menu() {
                     description={item.description}
                     image={item.image}
                     price={item.price}
+                    prefix={item.prefix}
                 />
             ))}
             <CartButton onClick={() => navigate('/cart')}>

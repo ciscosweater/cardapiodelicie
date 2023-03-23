@@ -61,7 +61,7 @@ Bom dia!
 
 O pedido foi escolhido pelo cardápio online, segue os itens selecionados:
 ${itemsArray.map((item) => (
-        `\n${item.count}x ${item.count > 1 ? "unidades" : "unidade"} de ${item.title}`
+        `\n${item.count}x ${item.count > 1 ? "unidades" : "unidade"} de ${item.prefix} - ${item.title}`
     ))}
 
 A forma de pagamento escolhida foi: ${payment}.

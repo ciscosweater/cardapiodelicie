@@ -13,7 +13,8 @@ function MenuItem(props) {
             title: props.title,
             description: props.description,
             image: props.image,
-            price: props.price
+            price: props.price,
+            prefix: props.prefix
         })
     };
 
