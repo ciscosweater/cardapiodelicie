@@ -61,18 +61,18 @@ Bom dia!
 
 O pedido foi escolhido pelo cardápio online, segue os itens selecionados:
 ${itemsArray.map((item) => (
-        `\n${item.count}x ${item.count > 1 ? "unidades" : "unidade"} de ${item.prefix} - ${item.title}`
+        `\n*${item.count}x* ${item.count > 1 ? "unidades" : "unidade"} de *${item.prefix}* - *${item.title}*`
     ))}
 
-A forma de pagamento escolhida foi: ${payment}.
+A forma de pagamento escolhida foi: *${payment}*
 
 ${checked ?
             `O pedido deverá ser retirado no endereço: Rua Uirapuru, 128, Bairro Recanto dos Pássaros - Próximo a COOPEB.`
             :
-            `O endereço para entrega é: ${field1}, ${field2}.\nO ponto de referência é: ${field3}.`
+            `O endereço para entrega é: *${field1.trim()}, ${field2.trim()}*.\nO ponto de referência é: *${field3.trim()}*.`
         }
 
-O valor a ser pago pelo pedido é de R$${totalSum.toFixed(2)}${checked ? '' : ', mais o valor da taxa de entrega que será informado logo em seguida.'}
+O valor a ser pago pelo pedido é de *R$${totalSum.toFixed(2)}*${checked ? '' : ', mais o valor da taxa de entrega que será informado logo em seguida.'}
 `
 
     const encodedMessage = encodeURI(sendMessage)
