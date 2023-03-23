@@ -5,14 +5,13 @@ export const MenuDiv = styled.div`
     max-width: 450px;
     min-height: 100px;
     background-color: #f8edf4;
-    margin: 20px 0px 100px 0px;
+    margin-bottom: 50px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     padding: 40px 0;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 `;
 
 export const ItemsMessage = styled.span`
@@ -20,6 +19,7 @@ export const ItemsMessage = styled.span`
     color:  #491d3b;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
+    margin-top: 20px;
     margin-bottom: 15px;
 `;
 
@@ -215,6 +215,14 @@ export const CartTitle = styled.span`
     text-align: center;
     font-weight: bold;
     color: #4b1e3d;
-    margin-bottom: 20px;
     margin-top: -10px;
+`;
+
+export const CartSubtitle = styled.span`
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #4b1e3d;
+    margin-top: 10px;
+    margin-bottom: 30px;
 `;

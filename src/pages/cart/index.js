@@ -4,7 +4,7 @@ import CheckOrder from "../../components/checkOrder";
 import Header from "../../components/header";
 import ArrowPic from "../../assets/arrow.png";
 import { CartContext } from "../../contexts/cartContext";
-import { CartContainer, PageTitle } from "./styles";
+import { CartContainer } from "./styles";
 
 function CartPage() {
     const { wipeCart } = useContext(CartContext);
@@ -18,7 +18,6 @@ function CartPage() {
     return (
         <CartContainer>
             <Header onclick={handleQuit} icon={ArrowPic} />
-            <PageTitle>Verifique seu pedido</PageTitle>
             <CheckOrder />
         </CartContainer>
     );

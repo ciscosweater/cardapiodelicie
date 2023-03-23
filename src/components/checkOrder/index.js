@@ -4,7 +4,7 @@ import { CartContext } from "../../contexts/cartContext";
 import CartItem from "../cartItem";
 import WhatsApp from "../../assets/whatsapp.png";
 import CheckIcon from "../../assets/check.png";
-import { CartButton, CartTitle, CheckboxContainer, CheckboxText, HiddenCheckbox, ItemsMessage, MenuDiv, NeighbourhoodInput, PaymentSelect, ReferenceInput, StreetInput, StyledCheckbox, SumDiv, TotalSum, TotalTitle, WhatsAppButton, WhatsAppIcon, WhatsAppText } from "./styles";
+import { CartButton, CartSubtitle, CartTitle, CheckboxContainer, CheckboxText, HiddenCheckbox, ItemsMessage, MenuDiv, NeighbourhoodInput, PaymentSelect, ReferenceInput, StreetInput, StyledCheckbox, SumDiv, TotalSum, TotalTitle, WhatsAppButton, WhatsAppIcon, WhatsAppText } from "./styles";
 
 function CheckOrder() {
     const [checked, setChecked] = useState(false);
@@ -85,6 +85,7 @@ O valor a ser pago pelo pedido é de *R$${totalSum.toFixed(2)}*${checked ? '' : 
                 <ItemsMessage>Não há itens em seu carrinho.</ItemsMessage>
                 :
                 <>
+                    <CartSubtitle>Verifique seu pedido antes de finalizar.</CartSubtitle>
                     {itemsArray.map((item) => (
                         <CartItem
                             key={item.key}
