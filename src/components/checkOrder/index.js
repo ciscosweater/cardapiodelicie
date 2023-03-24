@@ -142,7 +142,7 @@ O valor a ser pago pelo pedido é de *R$${totalSum.toFixed(2)}*${checked ? '' : 
                         value={field3}
                         disabled={checked ? 'disabled' : ''}
                     />
-                    <a href={`https://wa.me/5577998172054?text=${encodedMessage}`} target="blank">
+                    <a href={`https://wa.me/5577999009083?text=${encodedMessage}`} target="blank">
                         <WhatsAppButton>
                             <WhatsAppIcon src={WhatsApp} />
                             <WhatsAppText>Enviar o pedido</WhatsAppText>
