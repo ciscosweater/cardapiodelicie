@@ -181,12 +181,6 @@ function Menu() {
 
     return (
         <MenuDiv>
-            <FirstMessage>
-                Aviso! Os pedidos feitos aqui no cardápio
-                durante esse período de Páscoa são todos para encomenda,
-                a data para a entrega ou retirada será decidida e informada
-                após a finalização do pedido.
-            </FirstMessage>
             <SectionTitle>Ovos Gourmet - 350g</SectionTitle>
             {Colher350G.map((item) => (
                 <MenuItem
