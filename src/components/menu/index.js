@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import MenuItem from "../menu-item";
-import { CartButton, FirstMessage, MenuDiv, SectionTitle } from "./styles";
+import { CartButton, MenuDiv, SectionTitle } from "./styles";
 import ChocolateComMorango from "../../assets/fotos-ovos/chocolate-com-morango.png"
 import NinhoComNutella from "../../assets/fotos-ovos/ninho-com-nutella.png"
 import OreoComNutella from "../../assets/fotos-ovos/oreo-com-nutella.png"

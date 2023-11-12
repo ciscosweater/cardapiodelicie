@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MenuDiv = styled.div`
     width: 95%;
-    max-width: 450px;
+    max-width: 700px;
     min-height: 100px;
     background-color: #f8edf4;
     margin: 20px 0px 50px 0px;
